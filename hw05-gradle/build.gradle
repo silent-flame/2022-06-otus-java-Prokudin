@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+group 'ru.otus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
