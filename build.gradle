@@ -21,6 +21,9 @@ allprojects {
             mavenBom "org.testcontainers:testcontainers-bom:1.17.3"
          }
          dependency "com.google.guava:guava:${Versions.guava}"
+         dependency("io.grpc:grpc-netty:${Versions.grpc}")
+         dependency("io.grpc:grpc-protobuf:${Versions.grpc}")
+         dependency("io.grpc:grpc-stub:${Versions.grpc}")
         }
     }
 }
