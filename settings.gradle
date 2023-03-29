@@ -16,4 +16,6 @@ include 'hw12-gradle'
 include 'hw13-gradle'
 include 'hw14-gradle'
 include 'hw15-gradle'
-
+include 'hw18-gradle'
+include 'hw18-gradle:client-service'
+include 'hw18-gradle:datastore-service'
