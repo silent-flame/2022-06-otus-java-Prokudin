@@ -21,6 +21,10 @@ allprojects {
             mavenBom "org.testcontainers:testcontainers-bom:1.17.3"
          }
          dependency "com.google.guava:guava:${Versions.guava}"
+         dependency("io.r2dbc:r2dbc-postgresql:${Versions.r2dbcPostgresql}")
+         dependency("org.webjars:sockjs-client:${Versions.sockjs}")
+         dependency("org.webjars:stomp-websocket:${Versions.stomp}")
+         dependency("org.webjars:bootstrap:${Versions.bootstrap}")
         }
     }
 }
